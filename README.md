@@ -32,11 +32,11 @@ All screenshots are available in the screenshots/ directory.
 
 | PIN/Login Screen | Main Menu |
 | :---: | :---: |
-| <img src="screenshots/pin.jpg" width="350"> | <img src="screenshots/main_screen.jpg" width="350"> |
+| <img src="screenshots/pin.jpg" width="250"> | <img src="screenshots/main_screen.jpg" width="250"> |
 
 | Account information | 
 | :---: |
-| <img src="screenshots/account_info.jpg" width="350"> |
+| <img src="screenshots/account_info.jpg" width="250"> |
 
 ---
 
