@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">E-bankingSystemApp</string>
+    <string name="background">Background</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="info">Account Info</string>
+    <string name="confirm">Confirm</string>
+    <string name="amount">Deposit amount: €</string>
+    <string name="maxDeposit">Max. Deposit: 10.000€</string>
+    <string name="enterAmount">Enter amount</string>
+    <string name="withdrawalAmount">Withdrawal amount:</string>
+    <string name="newDeposit">New Deposit</string>
+    <string name="newWithdrawal">New Withdrawal</string>
+    <string name="accountInfo">info</string>
+    <string name="currentBalance">Current Balance</string>
+    <string name="transactionHistory">Transaction History</string>
+    <string name="noTransactions">No transactions found</string>
+    <string name="pinName">Pin input</string>
+    <string name="enterPin">Enter Pin</string>
+</resources>
