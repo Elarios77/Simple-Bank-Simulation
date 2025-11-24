@@ -42,54 +42,20 @@ This project follows the recommended **Modern Android Architecture**:
 
 ---
 
-## ⚙️ Set Up & Local Installation
+## ⚙️ Setup and Local Installation
 
-To set up this project locally on your machine, follow these steps.
+To download and run this project on your local machine, ensure you have **Android Studio** installed.
 
-### Prerequisites
-Before you begin, ensure you have the following installed:
-* **Android Studio:** Koala, Ladybug, or newer (Essential for Compose Previews).
-* **Java Development Kit (JDK):** Version 17 or 21 (Required for AGP 8.0+).
-* **Git:** To clone the repository.
+1. **Clone the Repository:** Use the HTTPS link provided on the GitHub page.
+   ```bash
+   git clone https://github.com/Elarios77/Simple-Bank-Simulation
+   ```
 
-### Installation Steps
+2. **Open in Android Studio:** Open the cloned directory as an existing Android Studio project.
 
-1.  **Clone the Repository**
-    Open your terminal or command prompt and run:
-    ```bash
-    git clone [https://github.com/your-username/bank-simulation-mvvm.git](https://github.com/your-username/bank-simulation-mvvm.git)
-    cd bank-simulation-mvvm
-    ```
+3. **Sync Gradle:** Allow Gradle to build and sync all necessary dependencies.
 
-2.  **Import Project**
-    * Open Android Studio.
-    * Select **File > Open...**
-    * Navigate to the `bank-simulation-mvvm` folder you just cloned and click **OK**.
-
-3.  **Sync Gradle**
-    * Android Studio will automatically detect the `build.gradle.kts` files.
-    * Allow the project to **Sync**. This downloads all necessary libraries (Compose, Coroutines, etc.).
-    * *Note:* If you encounter a JDK error, go to `Settings > Build, Execution, Deployment > Build Tools > Gradle` and ensure the correct JDK is selected.
-
----
-
-## 🚀 How to Run
-
-Once the installation and sync are complete:
-
-1.  **Select a Device:**
-    * Create an Android Virtual Device (AVD) via Device Manager (Recommended: Pixel 7, API 33+).
-    * OR connect a physical Android device via USB (Ensure USB Debugging is enabled).
-
-2.  **Execute:**
-    * Click the green **Run** button (▶) in the top toolbar or press `Shift + F10`.
-
-3.  **Login:**
-    * The app will launch to the **PIN Screen**.
-    * **Default PIN:** `1234` (Update this in `MainViewModel.kt` if needed).
-    * *Note: Since this is a simulation, data is reset when the app is killed.*
-
----
+4. **Run:** Build and run the application on an Android Emulator or a physical device (API 24+ is generally recommended).
 
 **Developed by [Lazaros]**
 [🔗 GitHub](https://github.com/Elarios77)
